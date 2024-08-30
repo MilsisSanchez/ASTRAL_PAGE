@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <title>ASTRAL</title>
+    </head>
+    <body>
+        <header class="header_bonito">
+            <nav class="navbar__container">
+                <div class="navbar__img">
+                    <img src="./planetas/logo_letras_blancas grande.png"
+                        alt="Astral">
+                </div>
+                <ul class="navbar__list">
+                    <li class="navbar__list__element">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li class="navbar__list__element">
+                        <a href="#descubre">Descubre</a>
+                    </li>
+                    <li class="navbar__list__element">
+                        <a href="#noticias">Noticias</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio" style="margin-top: 80px;"
+                class="inicio__container">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active w-100 h-50">
+                            <img src="./planetas/wallhaven-ox3p9l_1280x720.png"
+                                alt="space" style="width: 100%;">
+                         
+                        </div>
+                        <div class="carousel-item w-100 h-50">
+                            <img src="./planetas/wallhaven-0qg9rd_1280x720.png"
+                                alt="solarSystem1" style="width: 100%;">
+                         
+                        </div>
+                        <div class="carousel-item w-100 h-50">
+                            <img
+                                src="./planetas/wallhaven-0pjzpm_1280x720.png"
+                                alt="solarSystem2" style="width: 100%;">
+                        
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section class="descubrir" id="descubre" style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%;">
+                <h1 class="descubre" style="margin-bottom: 50px;">DESCUBRE LOS PLANETAS</h1>
+                <div class="test_grid">
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/mercury-8233227_1280.png"
+                                    alt="mercurio planeta">
+                                <a href="https://spaceplace.nasa.gov/all-about-mercury/sp/"><h4>Mercurio</h4></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="planet">
+                                <img src="./planetas/venus.png"
+                                    alt="venus planeta">
+                                <a href="https://spaceplace.nasa.gov/all-about-venus/sp/"><h4>Venus</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/earth-8233221_1280.png"
+                                    alt="la tierra">
+                                <a href="https://spaceplace.nasa.gov/all-about-earth/sp/"><h4>Tierra</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/mars-8233226_1280.png"
+                                    alt="marte planeta">
+                                <a href="https://spaceplace.nasa.gov/all-about-mars/sp/"><h4>Marte</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/jupiter-8233223_1280.png"
+                                    alt>
+                                <a href="https://spaceplace.nasa.gov/all-about-jupiter/sp/"><h4>Jupiter</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/saturno sin anillos.png"
+                                    alt>
+                                <a href="https://spaceplace.nasa.gov/all-about-saturn/sp/"><h4>Saturno</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/uranus-8233224_1280.png"
+                                    alt>
+                                <a href="https://spaceplace.nasa.gov/all-about-uranus/sp/"><h4>Urano</h4></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="planet">
+                                <img src="./planetas/neptune-8233219_1280.png"
+                                    alt>
+                                <a href="https://spaceplace.nasa.gov/all-about-neptune/sp/"><h4>Neptuno</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news" id="noticias">
+                <h1 class="ultimas" style="margin-bottom: 50px;">ULTIMAS NOTICIAS</h1>
+                <div class="noticias_card_container">
+                    <div class="card" style="width: 30rem;">
+                        <iframe width="478" height="292" src="https://www.youtube.com/embed/huwIj2us6sI?si=JnAvZy2y3zYc5E0i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="card-vid-top"></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Marte podría albergar océanos subterráneos demasiado profundos según la NASA</h5>
+                            <p class="card-text">InSight, el módulo de la NASA, ha revelado una gigantesca reserva subterránea de agua en Marte, ubicada a gran profundidad. </p>
+                            <a
+                                href="https://www.milenio.com/ciencia-y-salud/descubren-agua-en-marte-pero-no-se-puede-llegar-a-ella"
+                                class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="./planetas/noticia.avif" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Más grande que Júpiter y liviano como algodón de azúcar: el planeta que sorprendió a los astrónomos</h5>
+                            <p class="card-text">Un cuerpo celeste ha desconcertado a los científicos. Su existencia plantea preguntas cruciales sobre la composición y origen de algunos mundos.</p>
+                            <a
+                                href="https://www.infobae.com/estados-unidos/2024/08/21/mas-grande-que-jupiter-y-liviano-como-algodon-de-azucar-el-planeta-que-sorprendio-a-los-astronomos/"
+                                class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 30rem;">
+                        <img src="./planetas/noticia4.webp" width="478" height="292" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">La NASA decide que los dos astronautas varados no regresarán a la Tierra hasta febrero de 2025</h5>
+                            <p class="card-text">La agencia dijo que es demasiado arriesgado traer ahora a Butch Wilmore y Suni Williams en la dañada cápsula de Boeing, y que lo harán a bordo de una nave de SpaceX dentro de seis meses.</p>
+                            <a
+                                href="https://www.milenio.com/ciencia-y-salud/descubren-agua-en-marte-pero-no-se-puede-llegar-a-ella"
+                                class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pie-pagina">
+            <div class="pie-pagina-terminos">
+                <div class="footer_img_container" style="width: 150px;">
+                    <img src="./planetas/logo_letras_blancas grande.png" style="width: 100%; object-fit: cover;" alt>
+                </div>
+                <ul style="list-style: none; margin: 0; padding: 0;">
+                    <li> Contactanos </li>
+                    <li> Terminos y condiciones </li>
+                    <li> Acerca de </li>
+                </ul>
+            </div>
+            <div style="width: 1px; background-color: white; height: 100%;"></div>
+            <div class="pie-pagina-suscribete">
+                <h3>NEWS LETTER</h3>
+                <p> Suscribete y recibe las mejores noticias sobre el
+                    espacio </p>
+                <a href="" class="btn btn-primary">SUSCRIBETE</a>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
