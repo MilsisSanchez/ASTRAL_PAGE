@@ -19,28 +19,12 @@
 ul{
     list-style: none;
 }
- 
-
-.descubrir {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300px;
-  font-style: normal;
-}
-
-.news{
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300px;
-    font-style: normal;
-}
 
 body{
     background-color: var(--Color-body) !important;
     height: 100vh;
     width: 100%;
     color: var(--Color-principal) !important;
-    font-family: "Sora", sans-serif;
 }
 
 main{
@@ -50,6 +34,8 @@ main{
     width: 100%;
     overflow: hidden;
 }
+
+
 
 .navbar__container{
     width: 100%;
@@ -62,6 +48,7 @@ main{
     opacity: 90%;
     top: 0;
 }
+
 .navbar__list{
     display: flex;
     align-items: center;
@@ -83,7 +70,12 @@ main{
 }
 
 .navbar__list__element{
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.navbar__list__element:hover{
+    transform: scale(1.2, 1);
+    transition: transform 0.9s; 
 }
 
 .navbar__list__element a {
@@ -111,7 +103,7 @@ main{
     background-color: #433875;
     display: flex;
     gap: 4em;
-    height: 140px;
+    height: auto;
 }
 
 .pie-pagina-terminos{
@@ -213,4 +205,77 @@ main{
 
 .card{
     color: black;
+}
+
+.inicio__container{
+    margin-top: 80px;
+}
+
+.barrita{
+    width: 1px; 
+    background-color: white; 
+}
+
+/* Estilos responsive */
+@media (max-width: 537px) {
+    .navbar__container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Color-secundario);
+        position: fixed;
+        z-index: 999;
+        opacity: 90%;
+        top: 0;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .navbar__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .inicio__container{
+        margin-top: 253.3px;
+    }
+
+    .barrita{
+        width: 100%; 
+        background-color:white;
+        height: 1px;
+    }
+
+    .pie-pagina{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie-pagina-suscribete{
+        width: 100%;
+        text-align: center;
+    }
+
+    .pie-pagina-suscribete p{
+        margin: auto;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .pie-pagina-terminos button{
+        margin: auto !important;
+    }
+
 }
